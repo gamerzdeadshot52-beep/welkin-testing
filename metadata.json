@@ -1,0 +1,6 @@
+{
+  "name": "TOPPERS ADDA",
+  "description": "THE WELKIN CLASSES — NCERT & CBSE-aligned MCQ examination, side-by-side Class 10 PYQs, chapter notes, instant revision, and AI study planner for Classes 6–10.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

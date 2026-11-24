@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  :root {
+    --canvas-bg: #f6f5f0;
+    --surface-bg: #ffffff;
+    --surface-subtle: #f0ede4;
+    --border-hairline: #e2ddd2;
+    --ink-primary: #1e2a36;
+    --ink-secondary: #4d5a66;
+    --accent-slate: #355978;
+    --accent-sage: #2a6651;
+    --accent-bronze: #8a6843;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    background-color: var(--canvas-bg);
+    color: var(--ink-primary);
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.calm-paper-grid {
+  background-image:
+    radial-gradient(rgba(138, 104, 67, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
